@@ -1,4 +1,6 @@
 body {
+    height: 100vh;
+    position: relative;
     background-color: #D5E1EF;
     font-size: .938rem;
 }
@@ -21,7 +23,10 @@ p {
     width: 40%;
     height: 40%;
     text-align: center;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .qr-code-image {    
